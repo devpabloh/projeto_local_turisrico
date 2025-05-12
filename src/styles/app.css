@@ -1,0 +1,79 @@
+:root{
+    --primary-background-color: #F5F4F0;
+    
+    --primary-border-color: #D9D9D9;
+
+    --primary-text-color: #1B1B1B;
+    --secondary-text-color: #333333;
+    --tertiary-text-color: #696969;
+    --quaternary-text-color: #E1624F;
+
+    --primary-accent-color: #0C51A7;
+    --secondary-accent-color: #E95E10;
+    --tertiary-accent-color: #E5245E;
+    --quaternary-accent-color: #591B98;
+
+    --primary-font: 'Open Sans', sans-serif;
+
+    --font-size-small: 16px;
+    --font-size-medium: 28px;
+    --font-size-large: 32px;
+    --font-size-xlarge: 36px;   
+}
+
+body{
+    font-family: var(--primary-font);
+    padding: 2rem;
+    
+}
+
+h1{
+    font-size: var(--font-size-xlarge);
+    font-weight: bold;
+}
+
+h2{
+    font-size: var(--font-size-large);
+    font-weight: bold;
+}
+
+h3{
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+}
+
+p{
+    font-size: var(--font-size-small);
+}
+
+.headline{
+    font-size: var(--font-size-small);
+    font-weight: bold;
+    color: var(--quaternary-text-color);
+    text-transform: uppercase;
+}
+
+.containerImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.subtitle{
+    font-size: var(--font-size-small);
+    font-style: italic;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.divisao{
+    width: 100%;
+    height: 1px;
+    background-color: var(--primary-border-color);
+}
